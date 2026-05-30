@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ကျွန်ုပ်၏ ကိုယ်ပိုင် Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">My Portfolio</div>
+        <nav>
+            <ul>
+                <li><a href="#home">ပင်မစာမျက်နှာ</a></li>
+                <li><a href="#about">ကျွန်ုပ်အကြောင်း</a></li>
+                <li><a href="#services">လုပ်ဆောင်ချက်များ</a></li>
+                <li><a href="#contact">ဆက်သွယ်ရန်</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>မင်္ဂလာပါ၊ ကျွန်ုပ်၏ ကမ္ဘာမှ ကြိုဆိုပါတယ်</h1>
+            <p>ကျွန်တော်ကတော့ ဖန်တီးမှုအသစ်တွေကို စိတ်ဝင်စားတဲ့ နည်းပညာဝါသနာရှင်တစ်ယောက် ဖြစ်ပါတယ်</p>
+            <a href="#contact" class="btn btn-primary">ဆက်သွယ်လိုက်ပါ</a>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <div class="section-title">
+            <h2>ကျွန်ုပ်အကြောင်း</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="about-content">
+            <p>ဤနေရာတွင် မိမိအကြောင်းအရာများကို စိတ်ကြိုက်ပြောင်းလဲရေးသားနိုင်ပါသည်။ Web Development ကို စိတ်ဝင်စားသူ၊ နည်းပညာပိုင်းဆိုင်ရာ စိန်ခေါ်မှုများကို ဖြေရှင်းရတာ ဝါသနာပါသူ ဖြစ်သည်။ အမြဲတမ်း အသစ်အသစ်သော အရာများကို လေ့လာဆန်းသစ်နေသူလည်း ဖြစ်ပါတယ်။</p>
+        </div>
+    </section>
+
+    <section id="services" class="bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>လုပ်ဆောင်ချက်များ</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="services-grid">
+                <div class="card">
+                    <div class="icon">💻</div>
+                    <h3>Web Design & Dev</h3>
+                    <p>အသုံးပြုရလွယ်ကူပြီး ဆွဲဆောင်မှုရှိတဲ့ Website ဒီဇိုင်းများကို ဖန်တီးတည်ဆောက်ပေးခြင်း။</p>
+                </div>
+                <div class="card">
+                    <div class="icon">📸</div>
+                    <h3>Creative Editing</h3>
+                    <p>ဒီဂျစ်တယ်ဓာတ်ပုံများနှင့် ဗီဒီယိုများကို ပိုမိုကောင်းမွန်လှပအောင် တည်းဖြတ်ပြင်ဆင်ပေးခြင်း။</p>
+                </div>
+                <div class="card">
+                    <div class="icon">⚙️</div>
+                    <h3>Troubleshooting</h3>
+                    <p>နည်းပညာပိုင်းဆိုင်ရာ ပြဿနာများနှင့် စက်ပစ္စည်းပိုင်းဆိုင်ရာ လိုအပ်ချက်များကို ကူညီဖြေရှင်းပေးခြင်း။</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <div class="section-title">
+            <h2>ဆက်သွယ်ရန်</h2>
+            <div class="underline"></div>
+        </div>
+        <p style="margin-bottom: 2rem;">စိတ်ဝင်စားလို့ဖြစ်စေ၊ ဆွေးနွေးချင်လို့ဖြစ်စေ အောက်ပါ Form ကနေ မက်ဆေ့ခ်ျပို့နိုင်ပါတယ်ဗျာ။</p>
+        <form class="contact-form" onsubmit="event.preventDefault(); alert('မက်ဆေ့ခ်ျပေးပို့ခြင်း အောင်မြင်ပါသည်။');">
+            <input type="text" placeholder="သင့်အမည်" required>
+            <input type="email" placeholder="အီးမေးလ်လိပ်စာ" required>
+            <textarea placeholder="မက်ဆေ့ခ်ျအကြောင်းအရာ..." rows="5" required></textarea>
+            <button type="submit" class="btn btn-submit">ပေးပို့ရန်</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 My Portfolio. All Rights Reserved. ဖန်တီးသူ - ကိုယ်ပိုင်အမည်</p>
+    </footer>
+
+</body>
+</html>
